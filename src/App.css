@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 100%;
+  height: 100%;
+}
+
+.profilepic {
+  margin: auto;
+}
+.profilepic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.container-fluid {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sc-chat-window {
+  z-index: 100;
+}
+p {
+  color: #818c96;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.row {
+  height: 100%;
+}
+.col,
+.col-6 {
+  height: 100%;
+}
+button:focus {
+  outline: none;
+}
+.dropdown-item {
+  text-align: center;
+}

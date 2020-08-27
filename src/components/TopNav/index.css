@@ -1,0 +1,58 @@
+.DropdownBtn .btn {
+  background-color: transparent;
+  color: #24282b;
+  font-weight: 600;
+  border: none;
+}
+.DropdownBtn {
+  width: 175px;
+}
+.header {
+  height: 60px;
+  border-bottom: 1px solid #ced4da;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.btn-secondary {
+  background-color: transparent;
+  color: black;
+  border: none;
+  box-shadow: 0 0 0 0rem transparent;
+}
+.btn-secondary:hover {
+  background-color: transparent;
+  color: black;
+  border: none;
+  box-shadow: 0 0 0 0rem transparent;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  background-color: transparent;
+  color: black;
+  border: none;
+  box-shadow: 0 0 0 0rem transparent;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  box-shadow: 0 0 0 0rem transparent;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  background-color: transparent;
+  color: black;
+  border: none;
+  box-shadow: 0 0 0 0rem transparent;
+}
+
+.header .signOut {
+  border: none;
+  background-color: #da2929;
+  width: 110px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+}

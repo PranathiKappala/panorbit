@@ -1,0 +1,31 @@
+.profile-dt {
+  /* margin-top: 15px; */
+  text-align: center;
+}
+.profile-dt strong {
+  font-weight: 600;
+  color: #24282b;
+}
+.geo-ds p {
+  font-size: 14px;
+}
+.geo-ds strong {
+  font-size: 14px;
+}
+
+.chat-dp {
+  width: 100%;
+  height: 35px;
+  align-items: center;
+}
+.chat-dp p {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.chat-dp img {
+  width: 35px;
+  height: 32px;
+  margin-right: 15px;
+}

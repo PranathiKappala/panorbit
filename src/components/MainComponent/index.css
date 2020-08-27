@@ -1,0 +1,33 @@
+.landing-pg {
+  height: 50%;
+  background: linear-gradient(to bottom, #4f39e0, #7542f5);
+}
+.landing-pg .card {
+  width: 700px;
+  height: 492px;
+  margin: auto;
+  margin-top: 50px;
+}
+.card {
+  border-radius: 50px;
+}
+.card > .list-group:first-child .list-group-item:first-child {
+  border: none;
+}
+.card-body {
+  padding: 0px;
+  max-height: 90%;
+  overflow-y: auto;
+}
+.card-title {
+  margin: 0px;
+  background-color: #f2f5f6;
+  border-radius: 50px 50px 0px 0px;
+}
+.card-title h5 {
+  padding: 20px 0px;
+  margin: 0px;
+}
+.list-group-item {
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.sidenav {
+  background: linear-gradient(to bottom, #4f39e0, #7542f5);
+  min-height: 600px;
+  min-width: 150px;
+}
+
+.sidenavPill {
+  padding: 20px;
+  height: 100%;
+}
+
+.nav-pills .nav-link {
+  color: #ced4da;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: transparent;
+}
